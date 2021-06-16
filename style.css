@@ -1,14 +1,10 @@
-/* header {
-  display: flex;
-} */
-
 .header {
   background-color: rgb(50, 167, 145);
   height: 50px;
   max-width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .trybewarts-header-logo {
@@ -17,14 +13,15 @@
 }
 
 .trybewarts-login {
-  justify-content: right;
-  align-items: center;
+  display: flex;
+  align-items: left;
   flex-direction: row;
   padding: 10px;
   margin: 5px;
 }
 
 .trybewarts-login .forms {
+  align-items: right;
   border-radius: 4px;
   border: none;
 }
