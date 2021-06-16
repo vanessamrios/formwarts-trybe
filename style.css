@@ -13,9 +13,11 @@
 
 .trybewarts-header-logo {
   width: 50px;
+  justify-content: left;
 }
 
 .trybewarts-login {
+  justify-content: right;
   align-items: center;
   flex-direction: row;
   padding: 10px;
