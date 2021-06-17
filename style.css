@@ -69,3 +69,8 @@
 #div-master {
   display: flex;
 }
+
+#div-checkbox {
+  display: block;
+
+}
