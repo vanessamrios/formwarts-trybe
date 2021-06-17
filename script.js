@@ -13,17 +13,16 @@ button.addEventListener('click', () => {
   }
 });
 
-function activeButton () {
+function activeButton() {
   const enviar = document.getElementById('submit-btn');
   const checkbox = document.getElementById('agreement');
-  checkbox.addEventListener('change', ativaEnviar)
-  function ativaEnviar () {
-    console.log('chama')
-    if(checkbox.checked != true){
-    enviar.setAttribute('disabled', true)
-    }else{
-      enviar.removeAttribute('disabled')
+  function ativaEnviar() {
+    if (checkbox.checked !== true) {
+      enviar.setAttribute('disabled', true);
+    } else {
+      enviar.removeAttribute('disabled');
     }
   }
+  checkbox.addEventListener('change', ativaEnviar);
 }
-activeButton ()
+activeButton();
