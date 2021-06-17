@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0 auto;
 }
 
 .header {
@@ -104,7 +104,7 @@ body {
 }
 
 #div-footer {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(54, 53, 53);
