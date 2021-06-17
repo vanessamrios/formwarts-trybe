@@ -24,12 +24,12 @@
     </header>
   </section>
   <main class="container-main">
-    <form class="container-form" id="evaluation-form"action="">
+    <form class="container-form" id="evaluation-form" action="">
       <p> Forms </p>
       <br>
       <div class="dados-pessoais">
         <div class="dados-parte-1">
-          <input type="text" name="nome" placeholder="Nome"   id="input-name">
+          <input type="text" name="nome" placeholder="Nome" id="input-name">
           <input type="text" name="sobrenome" placeholder="Sobrenome" id="input-lastname">
         </div>
         <div class="dados-parte-2">
@@ -41,6 +41,14 @@
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
+        </div>
+      </div>
+      <div id="div-master">
+        <div id="div-radio">
+          <label id="label-family" for="house">Qual sua família?</label><br />
+          <input type="radio" name="family" value="Frontend" />Frontend<br />
+          <input type="radio" name="family" value="Backend" />Backend<br />
+          <input type="radio" name="family" value="FullStack" />FullStack<br />
         </div>
       </div>
     </form>
