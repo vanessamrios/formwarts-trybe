@@ -79,3 +79,15 @@
 #div-checkbox {
   display: block;
 }
+
+#div-agreed-checkbox {
+  display: flex;
+}
+
+#label-infos {
+  display: flex;
+}
+
+#agreement {
+  display: flex;
+}
