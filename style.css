@@ -37,14 +37,26 @@
 
 .container-main {
   display: flex;
+  border: 1px solid black;
 }
 
 .container-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  border: 1px solid black;
 }
 
 #trybewarts-forms-logo {
   max-width: 500px;
+}
+
+.dados-pessoais {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dados-parte-1 {
+  display: flex;
+  justify-content: space-between;
 }
