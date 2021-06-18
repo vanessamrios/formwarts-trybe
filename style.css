@@ -36,7 +36,14 @@ body {
 }
 
 #trybewarts-header-title {
+  display: flex;
   color: white;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {

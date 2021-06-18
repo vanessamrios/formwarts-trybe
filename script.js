@@ -26,3 +26,13 @@ function activeButton() {
   checkbox.addEventListener('change', ativaEnviar);
 }
 activeButton();
+
+const caracteres = 500;
+const idTextArea = document.getElementById('textarea');
+function limiteCaracteres() {
+  const idSpan = document.getElementById('counter');
+  const idTextAreaFuncao = document.getElementById('textarea');
+  const total = idTextAreaFuncao.value.length;
+  idSpan.innerText = caracteres - total;
+}
+idTextArea.addEventListener('input', limiteCaracteres);
