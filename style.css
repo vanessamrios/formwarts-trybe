@@ -1,5 +1,17 @@
 body {
   margin: 0 auto;
+  background-color: #efefef;
+}
+
+input, select {
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  width: auto;
+}
+
+select {
+  width: 150px;
 }
 
 .header {
@@ -63,21 +75,33 @@ p {
 }
 
 .dados-pessoais {
+  border: solid 1px black;
+  padding: 10px;
   display: flex;
+  flex-basis: auto;
+  width: 100%;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
+  justify-content:center;
 }
 
 .dados-parte-1 {
-  width: 500px;
+  width: 675px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
 .dados-parte-2 {
-  width: 500px;
+  width: 675px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  width: 178px;
 }
 
 #div-radio {
