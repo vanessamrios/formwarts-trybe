@@ -10,7 +10,7 @@ body {
 
 input , select {
   background-color: white;
-  border: 0 auto;
+  border: none;
   border-radius: 5px;
   width: auto;
 }
