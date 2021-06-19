@@ -28,11 +28,11 @@ function activeButton() {
 activeButton();
 
 const caracteres = 500;
-const idTextArea = document.getElementById('textarea');
+const textArea = document.getElementById('textarea');
 function limiteCaracteres() {
-  const idSpan = document.getElementById('counter');
-  const idTextAreaFuncao = document.getElementById('textarea');
-  const total = idTextAreaFuncao.value.length;
-  idSpan.innerText = caracteres - total;
+  const span = document.getElementById('counter');
+  const textAreaFuncao = document.getElementById('textarea');
+  const total = textAreaFuncao.value.length;
+  span.innerText = caracteres - total;
 }
-idTextArea.addEventListener('input', limiteCaracteres);
+textArea.addEventListener('input', limiteCaracteres);

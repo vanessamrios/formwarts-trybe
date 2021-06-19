@@ -14,20 +14,20 @@ body {
 .trybewarts-header-logo {
   width: 50px;
   justify-content: left;
+  margin-left: 150px;
 }
 
 .trybewarts-login {
   display: flex;
-  align-items: left;
-  flex-direction: row;
   padding: 10px;
-  margin: 5px;
+  margin-right: 100px;
+  justify-content: space-between;
 }
 
 .trybewarts-login .forms {
-  align-items: right;
   border-radius: 4px;
   border: none;
+  margin-right: 10px;
 }
 
 #button {
@@ -44,6 +44,7 @@ body {
 p {
   display: flex;
   justify-content: center;
+  font-size: 30px;
 }
 
 .container-main {
