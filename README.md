@@ -2,7 +2,7 @@
 
 https://vanessamrios.github.io/formwarts-trybe/
 
--Este projeto, realizado durante o modulo de Fundamentos de Desenvolvimento WEB de Trybe, foi desenvolvido em **dupla** com a colega de turma Débora Teodorico. A página contém um `formulário` da fictícia Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. 
+-Este projeto, realizado durante o modulo de Fundamentos de Desenvolvimento WEB de Trybe, foi desenvolvido em **dupla** com a colega de turma [Débora Teodorico](https://github.com/deborateodorico). A página contém um `formulário` da fictícia Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. 
 
 
 # Tecnologias usadas
